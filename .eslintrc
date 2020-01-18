@@ -1,0 +1,24 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "rules": {
+      "no-console": "off",
+      "sort-imports": "off",
+      "quotes": [
+        "error",
+        "single",
+        {
+          "avoidEscape": true
+        }
+      ],
+      "semi": ["error", "never"],
+      "no-trailing-spaces": "error",
+      "eol-last": "error",
+      "no-multiple-empty-lines": ["error", { "max": 1 }]
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
