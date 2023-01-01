@@ -39,7 +39,7 @@
     "moment": "^2.24.0",
     "nodemon": "^2.0.2",
     "serve-index": "^1.9.1",
-    "tsconfig-paths": "^3.9.0"
+    "tsconfig-paths": "^3.10.1"
   },
   "_moduleAlias": {
     "@t": "./@Types",
